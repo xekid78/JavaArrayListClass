@@ -42,7 +42,7 @@ public class sample14 {
 			System.out.println(namber);
 		}
 		// 要素数の取得
-			System.out.println("要素数は" + team.size());
+		System.out.println("要素数は" + team.size());
 
 	}
 
