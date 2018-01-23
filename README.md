@@ -1,4 +1,4 @@
-# Java_SampleCode14
+# JavaSampleCode14
 ArrayListクラス
 
 #### 処理
