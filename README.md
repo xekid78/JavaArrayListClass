@@ -8,7 +8,7 @@ ArrayListクラスを使って配列の出力などを行う。
 ```
 import java.util.ArrayList;
 
-public class sample14 {
+public class Arylistop {
 
 	public static void main(String[] args) {
 		ArrayList<String> team = new ArrayList<String>();
@@ -17,7 +17,7 @@ public class sample14 {
 		team.add("１番");
 		team.add("２番");
 		team.add("３番");
-		for (String namber : team) {
+		for (String namber: team) {
 			System.out.println(namber);
 		}
 		System.out.println("");
@@ -33,7 +33,7 @@ public class sample14 {
 		// 要素の変更
 		System.out.println("変更後のArrayList");
 		team.set(2,"５番");
-		for (String namber : team) {
+		for (String namber: team) {
 			System.out.println(namber);
 		}
 		System.out.println("");
@@ -41,7 +41,7 @@ public class sample14 {
 		// 要素の削除
 		System.out.println("削除後のArrayList");
 		team.remove(1);
-		for (String namber : team) {
+		for (String namber: team) {
 			System.out.println(namber);
 		}
 		// 要素数の取得
@@ -50,7 +50,6 @@ public class sample14 {
 	}
 
 }
-
 ```
 
 ## 出力結果
@@ -78,5 +77,6 @@ public class sample14 {
 ## 開発環境
 | 開発ツール |  |
 |:-|:-|
+| OS | Windows10 |
 | 統合開発環境(IDE) | Eclipse 4.7.0 Oxygen |
 | 開発言語 | Java8 |
